@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 1</title>
+</head>
+<body>
+	<h1>Form HTML</h1>
+	<br>
+	<font ty=arial size="5">
+		Name :
+		<input type="text" name="Name">
+	<br>
+	<br>
+		Gender:
+		<input type="radio" name="jenis_kelamin" value="L"> Man
+		<input type="radio" name="jenis_kelamin" value="P"> Woman
+	<br>
+	<br>
+	<font ty=arial size="5">
+		Address :
+		<input type="text" name="Address">
+	<br>
+	<br>
+		Country :
+	<select name="Country">
+		<option value="gd">Indonesia</option>
+		<option value="pj">Korea</option>
+		<option value="sa">Thailand</option>
+		<option value="ds">Jepang</option>
+	</select>
+	<br>
+	<br>
+	<font ty=arial size="5">
+		Email :
+		<input type="text" name="Email">
+	<br>
+	<br>
+	<font ty=arial size="5">
+		Photo :
+		<input type="text" name="Photo">
+		<input type="file" name="upload" value="" width="200" />
+	<br>
+	<br>
+		Comment :
+		<textarea name="dekripsi" cols="45" rows="5" align="center"></textarea>
+		<input type="submit" value="Submit" name="Submit">
+	<br>
+	<br>
+	<center>Form HTML</center>
+</body>
+</html>
