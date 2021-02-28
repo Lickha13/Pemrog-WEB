@@ -32,7 +32,7 @@
 	<br>
 	<font ty=arial size="5">
 		Email :
-		<input type="text" name="Email">
+		<input type="email" name="Email" required>
 	<br>
 	<br>
 	<font ty=arial size="5">
